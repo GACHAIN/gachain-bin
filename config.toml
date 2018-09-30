@@ -1,0 +1,54 @@
+PrivateBlockchain = false
+PidFilePath = "/go/bin/gachain-data/go-gachain.pid"
+LockFilePath = "/go/bin/gachain-data/go-gachain.lock"
+DataDir = "/go/bin/gachain-data"
+KeysDir = "/go/bin/gachain-data"
+TempDir = "/tmp/gachain-temp"
+FirstBlockPath = "/go/bin/gachain-data/1block"
+TLS = false
+TLSCert = ""
+TLSKey = ""
+RunningMode = "PublicBlockchain"
+MaxPageGenerationTime = 6000
+NodesAddr = ["node3.gac.one:7081"]
+
+[TCPServer]
+  Host = "0.0.0.0"
+  Port = 7080
+
+[HTTP]
+  Host = "0.0.0.0"
+  Port = 7079
+
+[DB]
+  Name = "GachainDB"
+  Host = "db"
+  Port = 5432
+  User = "postgres"
+  Password = "mydbpasswd"
+
+[StatsD]
+  Host = "127.0.0.1"
+  Port = 8125
+  Name = "gachain"
+
+[Centrifugo]
+  Secret = "CentrifugoSecret"
+  URL = "127.0.0.1:7080"
+
+[Log]
+  LogTo = "fullnode.Log"
+  LogLevel = "ERROR"
+  LogFormat = "text"
+  [Log.Syslog]
+    Facility = "kern"
+    Tag = "go-gachain"
+
+[TokenMovement]
+  Host = ""
+  Port = 0
+  Username = ""
+  Password = ""
+  To = ""
+  From = ""
+  Subject = ""
