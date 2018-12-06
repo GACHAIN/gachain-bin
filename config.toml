@@ -10,11 +10,11 @@ TLSCert = ""
 TLSKey = ""
 RunningMode = "PublicBlockchain"
 MaxPageGenerationTime = 6000
-NodesAddr = ["node3.gac.one:7081"]
+NodesAddr = ["localhost:7078"]
 
 [TCPServer]
   Host = "0.0.0.0"
-  Port = 7080
+  Port = 7078
 
 [HTTP]
   Host = "0.0.0.0"
