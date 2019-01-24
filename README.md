@@ -2,7 +2,7 @@
 
 下载地址：[https://github.com/GACHAIN/gachain-bin/releases](https://github.com/GACHAIN/gachain-bin/releases)
 
-> Mac系统和Linux系统下载地址需将名称修改为`go-gachain`
+> Mac系统和Linux系统下载地址需将名称修改为`go-gachain`
 
 全局标志（在所有命令中有效）：
 
@@ -56,7 +56,7 @@
     --tmovUser string         通证转移发送人
 ```
 
-- generateKeys - 生成密钥对，包括当前节点的节点公钥私钥和公钥私钥
+- generateKeys - 生成密钥对，包括当前节点的节点公钥私钥和公钥私钥
 
 - generateFirstBlock - 生成第一个区块
 
@@ -81,7 +81,7 @@
     -- funcBench    禁用一些内置函数的权限检查
 ```
 
-- stopNetwork - 停止节点
+- stopNetwork - 停止节点
 
 ```
     --stopNetworkCert   停止节点网络的证书路径
